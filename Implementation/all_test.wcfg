@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_digital_clock_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_digital_clock" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject db_ref_id="1" fp_name="/tb_digital_clock/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_digital_clock/set" type="logic">
+      <obj_property name="ElementShortName">set</obj_property>
+      <obj_property name="ObjectShortName">set</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_digital_clock/date" type="logic">
+      <obj_property name="ElementShortName">date</obj_property>
+      <obj_property name="ObjectShortName">date</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_digital_clock/incr" type="logic">
+      <obj_property name="ElementShortName">incr</obj_property>
+      <obj_property name="ObjectShortName">incr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_digital_clock/secs" type="array">
+      <obj_property name="ElementShortName">secs[5:0]</obj_property>
+      <obj_property name="ObjectShortName">secs[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_digital_clock/dcr" type="logic">
+      <obj_property name="ElementShortName">dcr</obj_property>
+      <obj_property name="ObjectShortName">dcr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_digital_clock/hours" type="array">
+      <obj_property name="ElementShortName">hours[4:0]</obj_property>
+      <obj_property name="ObjectShortName">hours[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_digital_clock/mins" type="array">
+      <obj_property name="ElementShortName">mins[5:0]</obj_property>
+      <obj_property name="ObjectShortName">mins[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_digital_clock/month" type="array">
+      <obj_property name="ElementShortName">month[3:0]</obj_property>
+      <obj_property name="ObjectShortName">month[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_digital_clock/day" type="array">
+      <obj_property name="ElementShortName">day[4:0]</obj_property>
+      <obj_property name="ObjectShortName">day[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_digital_clock/year" type="array">
+      <obj_property name="ElementShortName">year[11:0]</obj_property>
+      <obj_property name="ObjectShortName">year[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_digital_clock/seg" type="array">
+      <obj_property name="ElementShortName">seg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg[6:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_digital_clock/dp" type="logic">
+      <obj_property name="ElementShortName">dp</obj_property>
+      <obj_property name="ObjectShortName">dp</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_digital_clock/an" type="array">
+      <obj_property name="ElementShortName">an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">an[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_digital_clock/led" type="array">
+      <obj_property name="ElementShortName">led[5:0]</obj_property>
+      <obj_property name="ObjectShortName">led[5:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_digital_clock/alarm" type="logic">
+      <obj_property name="ElementShortName">alarm</obj_property>
+      <obj_property name="ObjectShortName">alarm</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_digital_clock/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+</wave_config>
